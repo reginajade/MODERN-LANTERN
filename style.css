@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    color: blue;
+    font-family: sans-serif, Helvetica, arial;
+    font-size: large;
+    font-weight: 200;
+
+}
+p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    height: 90px;
+    align-items: center;
+}
+.container .header h1{
+    text-shadow: 2px 2px 8px black;
+}
+.header ul li{
+    display: inline;
+    margin: 20px;
+    
+}
+.header a{
+    text-decoration: none;
+}
+header{
+    background-color: yellow;
+}
+.showcase{
+    padding-left: 700px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+ul{
+    line-height: 30px;
+    margin: 10px
+}
+.image img{
+     height: 700px; 
+     width: 100%;
+}
+ul .container{ 
+    width: 80%; 
+    margin-left:10%
+}
+.article .container{
+    width: 80%; 
+    margin-left:10%
+}
+.image2 img{
+    height: 700px;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: yellow;
+}
+ footer .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ footer a{
+    color: white;
+    text-decoration: none;
+ }
+ footer li{
+    list-style:none;
+ }
+ form{
+    /* width: 100%; */
+ }
+form input[type="email"]{
+    padding: 20px;
+    height: 25px;
+    width: 70%;
+    background-color: black;
+    font-size: large;
+ }
+
+form button{ 
+    height: 25px;
+    width: 120px;
+    background-color: yellow;
+    padding-right: 15px;
+    padding-left:15px ;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 5px solid ;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: -25px;
+    margin-top: -10px;
+}
+    
+
+
+
+
+ 
+
+
+
+
+
+
+
+
